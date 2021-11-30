@@ -8,7 +8,7 @@ namespace Host
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(Utility.Add(10, 10));
+			Console.WriteLine(Utility.Add_Old(10, 10));
 		}
 	}
 }
