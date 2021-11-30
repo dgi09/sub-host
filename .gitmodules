@@ -1,0 +1,4 @@
+[submodule "SDK"]
+	path = Libs/SDK
+	url = https://github.com/dgi09/sub-lib.git
+	branch = main
