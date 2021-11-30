@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host.csproj", "{B271E14D-7C88-495D-A5C8-09EF85F8F1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Host", "Host.csproj", "{B271E14D-7C88-495D-A5C8-09EF85F8F1BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{7B00289D-EBC4-4B57-9B95-6D62BB8AB9D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDK", "..\Libs\SDK\SDK\SDK.csproj", "{97E5C18E-CD44-43A6-9D83-4E18275D37DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{B271E14D-7C88-495D-A5C8-09EF85F8F1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B271E14D-7C88-495D-A5C8-09EF85F8F1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B271E14D-7C88-495D-A5C8-09EF85F8F1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E5C18E-CD44-43A6-9D83-4E18275D37DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E5C18E-CD44-43A6-9D83-4E18275D37DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E5C18E-CD44-43A6-9D83-4E18275D37DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E5C18E-CD44-43A6-9D83-4E18275D37DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97E5C18E-CD44-43A6-9D83-4E18275D37DC} = {7B00289D-EBC4-4B57-9B95-6D62BB8AB9D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D6EFED5-F7FD-4A2B-BD85-500B79A43E9C}
